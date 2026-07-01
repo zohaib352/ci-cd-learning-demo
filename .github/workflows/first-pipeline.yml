@@ -1,4 +1,4 @@
-name: First CI Pipeline
+name: Learn Jobs and Steps
 
 on:
   push:
@@ -6,9 +6,15 @@ on:
       - main
 
 jobs:
-  say-hello:
+  learning-job:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print message
-        run: echo "Hello CI/CD"
+      - name: Step 1 - Start
+        run: echo "Pipeline started"
+
+      - name: Step 2 - Check system
+        run: uname -a
+
+      - name: Step 3 - Finish
+        run: echo "Pipeline completed"
