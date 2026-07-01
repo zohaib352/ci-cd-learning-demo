@@ -2,7 +2,7 @@
   "name": "ci_cd_learning-demo",
   "version": "1.0.0",
   "description": "\"# CI/CD Learning Demo\" \r This repository is for practicing CI/CD as a beginner QA Engineer.",
-  "main": "sum.js",
+  "main": "subtract.js",
   "scripts": {
     "test": "jest"
   },
