@@ -4,7 +4,8 @@
   "description": "\"# CI/CD Learning Demo\" \r This repository is for practicing CI/CD as a beginner QA Engineer.",
   "main": "subtract.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "api-test": "newman run postman/api-tests.json"
   },
   "repository": {
     "type": "git",
